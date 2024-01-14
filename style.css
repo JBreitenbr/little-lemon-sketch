@@ -64,7 +64,7 @@ main {
   text-align: center;
 }
 #hero {
-  height: 100px;
+  height: 160px;
   width: 100%;
   background: url("https://www.dropbox.com/scl/fi/19bo9m7bv3tvpg1ci7p9b/mezze.jpg?rlkey=5z8g2ri78zur07cwdwvk7fjtc&raw=1");
   border: 1px solid black;
@@ -78,7 +78,7 @@ h3 {
   margin-right: auto;
   color: #333;
   font-family: Oxygen;
-  padding: 1rem 0.3rem;
+  padding: 2.8rem 0.3rem;
 }
 h4 {
   padding: 0.15rem;
