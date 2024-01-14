@@ -76,6 +76,8 @@ h3 {
   text-align: center;
   margin-left: auto;
   margin-right: auto;
+  color: #333;
+  font-family: Oxygen;
 }
 h4 {
   padding: 0.15rem;
@@ -97,9 +99,14 @@ article {
   border-radius: 3%;
   height: 42vh;
 }
-#adana {
-  height: 10vh;
+.col-pic {
+  width: 100%;
   object-fit: cover;
+}
+
+.open {
+  font-style: italic;
+  text-align: center;
 }
 footer {
   height: 12vmin;
