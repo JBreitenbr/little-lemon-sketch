@@ -92,7 +92,7 @@ h4 {
 }
 
 article {
-  width: 30%;
+  width: 110px;
   padding: 0.2rem;
   background-color: #decdb6;
   color: #363636;
@@ -100,10 +100,11 @@ article {
   height: 42vh;
 }
 .col-pic {
-  width: 100%;
-  /*object-fit: cover;*/
+  width: 100px;
 }
-
+#booking-link:active{
+  color: darkred;
+}
 .open {
   font-style: italic;
   text-align: center;
