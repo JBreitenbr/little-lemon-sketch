@@ -220,34 +220,7 @@ hr.divider {
   }
   
 }
-.food-bg {background-color: #ffefd5;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
 
-#book-title {
-  text-align: center;
-  font-family: Lora;
-  color: #0f4980;
-  font-weight: 600;
-  margin-top: 3vh;
-}
-
-#booking-form {
-  width: min(80%, 300px);
-  border: 1px solid #ccc;
-  background-color:#f5faff;
-  padding: 5vw;
-  border-radius: 5%;
-  font-family: Lora;
-}
-
-#submit {
-  background-color: #1f5a91;
-  color:#eee;
-}
 
 @media screen and (min-width: 768px) {
   #booking-form {

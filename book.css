@@ -1,0 +1,68 @@
+#navbar {
+  margin-top: 1vmax;
+  margin-bottom: 1vmax;
+  width: 95%;
+  background-color:#636363;
+  height: 8vmin;
+  border-radius: 3%;
+}
+
+ul {
+  display: flex;
+  align-items: center; 
+  justify-content: space-evenly;
+  margin: 0;
+  padding: 0;
+  color: #f7f7f7;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #f7f7f7;
+  padding: 3px;
+}
+
+li {
+  display: block;
+  margin-top: 2vmin;
+  list-style-type: none;
+  font-size: 12px;
+  color: #f7f7f7;
+}
+li:hover {
+  background-color: #f7f7f7;
+  color: #636363;
+}
+
+a {
+  color: #636363;
+}
+
+.food-bg {background-color: #ffefd5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#book-title {
+  text-align: center;
+  font-family: Lora;
+  color: #0f4980;
+  font-weight: 600;
+  margin-top: 3vh;
+}
+
+#booking-form {
+  width: min(80%, 300px);
+  border: 1px solid #ccc;
+  background-color:#f5faff;
+  padding: 5vw;
+  border-radius: 5%;
+  font-family: Lora;
+}
+
+#submit {
+  background-color: #1f5a91;
+  color:#eee;
+}
