@@ -232,7 +232,13 @@ hr.divider {
 @media screen and (min-width:768px)  and (min-aspect-ratio: 1.2){
   article {
     width: 210px;
-    height: 280px;
+    height: 310px;
+  }
+  #img-header {
+    height: 90px;
+  }
+  #hero {
+    height: 110px;
   }
   .col-pic {
     width:195px;
@@ -257,7 +263,7 @@ hr.divider {
 @media screen and (min-width:1050px)  {
   article {
     width: 250px;
-    height: 300px;
+    height: 310px;
   }
   .col-pic {
     width:235px;
