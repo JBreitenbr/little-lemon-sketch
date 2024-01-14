@@ -19,12 +19,11 @@ body {
 }
 
 #navbar {
-  margin-top: 1vmax;
-  margin-bottom: 1vmax;
+  margin-top: 0.7vmax;
+  margin-bottom: 0.7vmax;
   width: 95%;
   background-color:#636363;
-  height: 8vmin;
-  border-radius: 3%;
+  height: 30px;
 }
 
 ul {
@@ -64,7 +63,7 @@ main {
   text-align: center;
 }
 #hero {
-  height: 160px;
+  height: 140px;
   width: 100%;
   background: url("https://www.dropbox.com/scl/fi/19bo9m7bv3tvpg1ci7p9b/mezze.jpg?rlkey=5z8g2ri78zur07cwdwvk7fjtc&raw=1");
   border: 1px solid black;
@@ -78,7 +77,7 @@ h3 {
   margin-right: auto;
   color: #333;
   font-family: Oxygen;
-  padding: 2.8rem 0.3rem;
+  padding: 2.6rem 0.3rem;
 }
 h4 {
   padding: 0.15rem;
@@ -230,4 +229,11 @@ hr.divider {
   
 }
 
-
+@media screen and (min-width:768px)  {
+  article {
+    width: 180px;
+  }
+  .col-pic {
+    width:170px;
+  }
+}
