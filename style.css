@@ -232,6 +232,18 @@ hr.divider {
 @media screen and (min-width:768px)  and (min-aspect-ratio: 1.2){
   article {
     width: 210px;
+    height: 280px;
+  }
+  .col-pic {
+    width:195px;
+  }
+  #cols {
+    gap: 1.3rem;
+  }
+}
+@media screen and (max-width:768px)  and (min-aspect-ratio: 1.2){
+  article {
+    width: 210px;
     height: 330px;
   }
   .col-pic {
@@ -239,5 +251,18 @@ hr.divider {
   }
   #cols {
     gap: 1.3rem;
+  }
+}
+
+@media screen and (min-width:1050px)  {
+  article {
+    width: 250px;
+    height: 280px;
+  }
+  .col-pic {
+    width:235px;
+  }
+  #cols {
+    gap: 2.7rem;
   }
 }
