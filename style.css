@@ -78,6 +78,7 @@ h3 {
   margin-right: auto;
   color: #333;
   font-family: Oxygen;
+  padding: 1rem 0.3rem;
 }
 h4 {
   padding: 0.15rem;
@@ -97,7 +98,7 @@ article {
   background-color: #decdb6;
   color: #363636;
   border-radius: 3%;
-  height: 42vh;
+  height: 280px;
 }
 .col-pic {
   width: 100px;
