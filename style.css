@@ -66,7 +66,6 @@ main {
   height: 140px;
   width: 100%;
   background: url("https://www.dropbox.com/scl/fi/19bo9m7bv3tvpg1ci7p9b/mezze.jpg?rlkey=5z8g2ri78zur07cwdwvk7fjtc&raw=1");
-  border: 1px solid black;
   display: flex;
   text-align: center;
   margin-bottom: 2vmax;
@@ -78,6 +77,7 @@ h3 {
   color: #333;
   font-family: Oxygen;
   padding: 2.6rem 0.3rem;
+  font-size: 1.2rem;
 }
 h4 {
   padding: 0.15rem;
@@ -231,9 +231,13 @@ hr.divider {
 
 @media screen and (min-width:768px)  {
   article {
-    width: 180px;
+    width: 210px;
+    height: 330px;
   }
   .col-pic {
-    width:170px;
+    width:195px;
+  }
+  #cols {
+    gap: 1.3rem;
   }
 }
